@@ -244,7 +244,7 @@ myLogHook = return ()
 --
 -- By default, do nothing.
 myStartupHook = do
-    spawnOnce "nitrogen --restore. &"
+    spawnOnce "nitrogen --restore &"
     spawnOnce "picom &"
 
 ------------------------------------------------------------------------
