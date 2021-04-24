@@ -182,5 +182,21 @@ sudo pacman -S xorg
 
 ### Xmonad Installation
 
+```
+sudo pacman -S lightdm lightdm-gtk-greeter xterm code firefox xmonad-contrib xmobar trayer xdotool
+```
 
+Reboot and you should get the lightdm graphical login screen. Once you login, Xmonad should be running. You will know because you will be at a completely black screen with a cursor. Use Alt + Shift + Enter to launch a terminal window for the next steps.
+
+We need to install `git` so that we can pull down dotfiles.
+
+`sudo pacman -S git`
+
+We will now clone our repository and copy the config files
+
+```
+git clone https://github.com/jarossnd/dotfiles.git
+cp -r dotfiles/.config/xmonad ~/.config
+cp -r dotfiles/.config/xmobar ~/.config
+```
 
