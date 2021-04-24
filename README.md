@@ -183,7 +183,7 @@ sudo pacman -S xorg
 ### Xmonad Installation
 
 ```
-sudo pacman -S lightdm lightdm-gtk-greeter xterm code firefox xmonad-contrib xmobar trayer xdotool
+sudo pacman -S lightdm lightdm-gtk-greeter xterm code firefox dmenu nitrogen picom
 ```
 
 Reboot and you should get the lightdm graphical login screen. Once you login, Xmonad should be running. You will know because you will be at a completely black screen with a cursor. Use Alt + Shift + Enter to launch a terminal window for the next steps.
