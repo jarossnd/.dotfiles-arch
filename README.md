@@ -132,7 +132,7 @@
     - `reboot`
 
 
-## Post Arch Installation+
+## Post Arch Installation
 
 ### User Account Creation
 
