@@ -236,3 +236,11 @@ cp -r .dotfiles-arch/.xmonad ~/
 ```
 
 Reboot system
+
+
+### Misc
+
+sudo pacman -S xmobar
+
+
+
