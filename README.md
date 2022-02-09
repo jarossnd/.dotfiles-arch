@@ -232,7 +232,7 @@ We will now clone our repository and copy the config files
 
 ```
 git clone https://github.com/jarossnd/.dotfiles-arch.git
-cp -r dotfiles/.xmonad ~/
+cp -r .dotfiles-arch/.xmonad ~/
 ```
 
 Reboot system
