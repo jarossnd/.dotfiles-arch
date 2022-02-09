@@ -231,7 +231,7 @@ We need to install `git` so that we can pull down dotfiles.
 We will now clone our repository and copy the config files
 
 ```
-git clone https://github.com/jarossnd/dotfiles.git
+git clone https://github.com/jarossnd/.dotfiles-arch.git
 cp -r dotfiles/.xmonad ~/
 ```
 
