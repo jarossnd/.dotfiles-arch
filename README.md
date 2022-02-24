@@ -61,7 +61,7 @@
     - Type `w` to write the partitions
 
 10. Create the filesystem:
-    - `fdisk -l` to view the partitions for the next step
+   - `fdisk -l` to view the partitions for the next step
    - `mkfs.fat -F32 /dev/sda1`
    - `mkswap /dev/sda2`
    - `mkfs.ext4 /dev/sda3`
