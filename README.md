@@ -70,7 +70,7 @@
     - `mount /dev/sda3 /mnt`
 
 12. Enable Swap
-    - swapon /dev/sda2
+    - `swapon /dev/sda2`
 
 13. Install Arch linux base packages:
     - Use the following if you want to include VIM:
@@ -94,7 +94,7 @@
 19. Localization
     - `vim /etc/locale.gen`
     - Uncomment `en_US.UTF-8 UTF-8` and save + quit
-    - locale-gen
+    - `locale-gen`
     - `vim /etc/locale.conf`
     - Add `LANG=en_US.UTF-8` to the file then save + quit
 
