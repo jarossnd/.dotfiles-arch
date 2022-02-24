@@ -226,7 +226,7 @@ Reboot system
 
 `sudo pacman -S xmobar`
 
-`cp -r .dotfiles-arch/.config ~/.config`
+`cp -r .dotfiles-arch/.config ~/`
 
 
 
