@@ -22,3 +22,11 @@ sudo pacman --noconfirm --needed -Syu dialog || error "Error syncing the repos."
 
 # Let's install each package listed in the pkglist.txt file.
 sudo pacman --needed --ask 4 -Sy - < pkglist.txt
+
+echo "Enabling Window Manager"
+sudo systemctl enable lightdm
+
+echo "Copying configs"
+git clone https://github.com/jarossnd/.dotfiles-arch.git
+cp -r .dotfiles-arch/.xmonad ~/
+cp -r .dotfiles-arch/.config ~/.config
