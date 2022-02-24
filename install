@@ -29,4 +29,4 @@ sudo systemctl enable lightdm
 echo "Copying configs"
 git clone https://github.com/jarossnd/.dotfiles-arch.git
 cp -r .dotfiles-arch/.xmonad ~/
-cp -r .dotfiles-arch/.config ~/.config
+cp -r .dotfiles-arch/.config ~/
