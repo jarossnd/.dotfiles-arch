@@ -1,1 +1,10 @@
+xorg
+lightdm
+lightdm-gtk-greeter
+xmonad xmonad-contrib
+xterm code
+firefox
+dmenu
+nitrogen
+picom
 alacritty
