@@ -1,8 +1,10 @@
 xorg
 lightdm
 lightdm-gtk-greeter
-xmonad xmonad-contrib
-xterm code
+xmonad
+xmonad-contrib
+xmobar
+xterm
 firefox
 dmenu
 nitrogen
