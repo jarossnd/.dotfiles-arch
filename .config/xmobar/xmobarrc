@@ -9,16 +9,16 @@ Config {
                         , "xft:Font Awesome 6 Free Solid:pixelsize=12"
                         , "xft:Font Awesome 6 Brands:pixelsize=12"
                        ]
-   , bgColor =      "#282c34"
-   , fgColor =      "#ff6c6b"
+   , bgColor =      "#002b36"
+   , fgColor =      "#657b83"
    , position =     Top
-   , border =       BottomB
-   , borderColor =  "#646464"
+   , border =       NoBorder
+   , borderColor =  "black"
 
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = "%battery% | %multicpu% | %coretemp% | %memory% | %dynnetwork% }{ %RJTT% | %date% || %kbd% "
+   , template = "%battery% | %multicpu% | %coretemp% | %memory% | %dynnetwork% }{ %KFAR% | %date% || %kbd% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -45,7 +45,7 @@ Config {
    , commands = 
 
         -- weather monitor
-        [ Run Weather "RJTT" [ "--template", "<skyCondition> | <fc=#4682B4><tempC></fc>°C | <fc=#4682B4><rh></fc>% | <fc=#4682B4><pressure></fc>hPa"
+        [ Run Weather "KFAR" [ "--template", "<skyCondition> | <fc=#4682B4><tempF></fc>°F | <fc=#4682B4><rh></fc>% | <fc=#4682B4><pressure></fc>hPa"
                              ] 36000
 
         -- network activity monitor (dynamic interface resolution)
