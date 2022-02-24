@@ -8,6 +8,11 @@ picom
 alacritty
 neovim
 git
+ttf-ms-fonts
+ttf-ubuntu-font-family
+otf-font-awesome
+adobe-source-code-pro-fonts
+adobe-source-sans-fonts
 xmonad
 xmonad-contrib
 xmobar
