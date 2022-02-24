@@ -224,8 +224,9 @@ Reboot system
 
 ### Misc
 
-sudo pacman -S xmobar
-cp -r .dotfiles-arch/.config ~/.config
+`sudo pacman -S xmobar`
+
+`cp -r .dotfiles-arch/.config ~/.config`
 
 
 
