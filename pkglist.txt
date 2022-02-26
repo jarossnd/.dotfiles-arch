@@ -7,8 +7,18 @@ nitrogen
 picom
 alacritty
 neovim
+maim
+mpd
+mpc
+mpv
+man-db
+newsboat
+ntfs-3g
+ffmpeg
 git
 github-cli
+unrar
+unzip
 ttf-ubuntu-font-family
 otf-font-awesome
 adobe-source-code-pro-fonts
@@ -20,6 +30,7 @@ pipewire-jack
 pipewire-media-session
 pulsemixer
 helvum
+youtube-dl
 xmonad
 xmonad-contrib
 xmobar
@@ -31,6 +42,7 @@ xorg-xrdb
 xorg-xset
 xorg-xsetroot
 xterm
+xclip
 xwallpaper
 zathura
 zsh
