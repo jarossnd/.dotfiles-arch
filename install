@@ -30,3 +30,4 @@ echo "Copying configs"
 git clone https://github.com/jarossnd/.dotfiles-arch.git
 cp -r .dotfiles-arch/.xmonad ~/
 cp -r .dotfiles-arch/.config ~/
+cp .dotfiles-arch/.Xresources ~/
