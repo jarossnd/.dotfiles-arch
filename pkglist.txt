@@ -6,6 +6,8 @@ dmenu
 nitrogen
 picom
 alacritty
+fish
+shell-color-scripts
 neovim
 maim
 mpd
@@ -24,7 +26,7 @@ otf-font-awesome
 adobe-source-code-pro-fonts
 adobe-source-sans-fonts
 pipewire
-pipwire-pulse
+pipewire-pulse
 pipewire-alsa
 pipewire-jack
 pipewire-media-session

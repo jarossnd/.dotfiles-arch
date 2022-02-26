@@ -27,7 +27,13 @@ echo "Enabling Window Manager"
 sudo systemctl enable lightdm
 
 echo "Copying configs"
-git clone https://github.com/jarossnd/.dotfiles-arch.git
+#git clone https://github.com/jarossnd/.dotfiles-arch.git
+cd ~
 cp -r .dotfiles-arch/.xmonad ~/
 cp -r .dotfiles-arch/.config ~/
-cp .dotfiles-arch/.Xresources ~/
+cp .dotfiles-arch/.Xresources ~/S
+
+echo "Setting default shell to fish"
+sudo chsh $USER -s "/bin/fish"
+
+echo "**********************FINISHED**********************"
