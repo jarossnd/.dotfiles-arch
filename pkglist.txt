@@ -4,7 +4,6 @@ adobe-source-sans-fonts
 alacritty
 arc-gtk-theme
 arc-icon-theme
-aura
 base-devel
 bash
 bat
@@ -12,8 +11,6 @@ bluez
 bluez-utils
 cups
 dmenu
-dmenu-distrotube
-dmscripts
 elementary-icon-theme
 element-desktop
 emacs
@@ -26,7 +23,6 @@ git
 github-cli
 helvum
 htop
-libxft-bgra
 lightdm
 lightdm-gtk-greeter
 lolcat
@@ -37,7 +33,6 @@ man-db
 mpc
 mpd
 mpv
-multicolor-sddm-theme
 neovim
 network-manager-applet
 newsboat
@@ -60,7 +55,6 @@ qalculate-gtk
 qt5ct
 qutebrowser
 ripgrep
-sddm
 shellcheck
 slock
 stack
