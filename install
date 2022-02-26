@@ -31,7 +31,7 @@ echo "Copying configs"
 cd ~
 cp -r .dotfiles-arch/.xmonad ~/
 cp -r .dotfiles-arch/.config ~/
-cp .dotfiles-arch/.Xresources ~/S
+cp .dotfiles-arch/.Xresources ~/
 
 echo "Setting default shell to fish"
 sudo chsh $USER -s "/bin/fish"
