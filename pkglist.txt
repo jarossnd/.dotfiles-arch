@@ -31,6 +31,7 @@ pipewire-media-session
 pulsemixer
 helvum
 youtube-dl
+volumeicon
 xmonad
 xmonad-contrib
 xmobar
