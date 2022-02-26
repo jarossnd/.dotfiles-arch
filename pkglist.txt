@@ -40,7 +40,6 @@ nitrogen
 ntfs-3g
 opendoas
 otf-font-awesome
-otf-raleway
 pacman-contrib
 pandoc
 pcmanfm
@@ -63,8 +62,6 @@ sxiv
 trayer
 ttf-hack
 ttf-joypixels
-ttf-mononoki
-ttf-ms-fonts
 ttf-ubuntu-font-family
 unrar
 unzip
